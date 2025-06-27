@@ -1,0 +1,30 @@
+# AI Mastery From Scratch - Optional Local Development
+# 
+# NOTE: Each notebook installs its own requirements automatically!
+# This file is only needed if you want to pre-install everything locally.
+#
+# For most users: Just open the notebooks - they handle installation!
+
+# Core scientific computing (used across all lessons)
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Jupyter environment
+jupyter>=1.0.0
+notebook>=6.4.0
+ipywidgets>=7.6.0
+
+# Common utilities
+tqdm>=4.62.0
+pillow>=8.3.0
+
+# Phase 2+ (installed by relevant notebooks)
+scikit-learn>=1.0.0
+tensorflow>=2.8.0
+torch>=1.11.0
+torchvision>=0.12.0
+
+# Optional: Advanced visualizations  
+plotly>=5.0.0
+bokeh>=2.4.0
